@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+     <!-- Floating Action Button fixe à cliquer -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_main"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@android:drawable/arrow_up_float"
+        android:backgroundTint="@color/magenta_light"
+        android:tint="@color/white"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <!-- Floating Action Button 1 invisible -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/cyan_light"
+        android:src="@android:drawable/ic_menu_compass"
+        android:tint="@color/white"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+        android:visibility="invisible" />
+
+    <!-- Floating Action Button 2 invisible -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="@color/green_light"
+        android:src="@android:drawable/btn_star"
+        android:tint="@color/white"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

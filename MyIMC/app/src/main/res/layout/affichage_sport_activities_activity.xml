@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15pt"
+        android:queryHint="Rechercher une activité" />
+
+    <EditText
+        android:id="@+id/et_nom_sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:hint="Nom de l'activité sportive" />
+
+
+    <EditText
+        android:id="@+id/et_duree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Durée (en minutes)" />
+
+    <Button
+        android:id="@+id/btn_ajouter_activite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Activité" />
+
+
+    <ListView
+        android:id="@+id/lv_activites"
+        android:layout_width="match_parent"
+        android:layout_height="483dp" />
+
+    <ImageButton
+        android:id="@+id/btnRetour"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Bouton Retour"
+        android:src="@drawable/home" />
+
+</LinearLayout>

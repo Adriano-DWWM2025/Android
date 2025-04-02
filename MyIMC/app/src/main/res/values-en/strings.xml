@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyIMC</string>
+    <string name="titre">Calculate your IMC</string>
+    <string name="poids">Set your weight</string>
+    <string name="taille">Set your height</string>
+    <string name="votreIMC">Your IMC is :</string>
+    <string name="becareful">Caution, this calculator is for informational purposes only. Do not use if you are a child or a pregnant woman. Consult a doctor if in doubt.</string>
+    <string name="attention_votre_imc_est_dans_la_zone">"Be careful, your IMC is in : "</string>
+    <string name="bravo_votre_imc_est_dans_la_zone">"Congrats ! Your IMC is in : "</string>
+</resources>

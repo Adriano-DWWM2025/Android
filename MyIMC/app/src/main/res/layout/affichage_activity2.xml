@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Calculez et gérez votre IMC !"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_calcul_imc"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/bouton1"
+        android:contentDescription="Calcul de l'IMC" />
+
+
+    <ImageView
+        android:id="@+id/img_voir_resultats"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/bouton2"
+        android:contentDescription="Voir Résultats" />
+
+
+    <ImageView
+        android:id="@+id/img_activites_sportives"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bouton3"
+        android:contentDescription="Activités Sportives" />
+</LinearLayout>

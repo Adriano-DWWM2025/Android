@@ -1,0 +1,10 @@
+Fichiers et dossiers générés par Android Studio
+.gradle/
+/build/
+/captures/
+/local.properties
+*.iml
+
+Autres fichiers système
+.DS_Store
+Thumbs.db

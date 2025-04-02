@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyIMC</string>
+    <string name="titre">Calculer votre IMC</string>
+    <string name="poids">Indiquer votre poids</string>
+    <string name="taille">Indiquer votre taille</string>
+    <string name="votreIMC">"Votre IMC est de : "</string>
+    <string name="becareful">Attention, ce calculateur doit être utilisé à titre indicatif.         Ne pas utiliser si vous êtes un enfant ou une femme enceinte. Consultez un médecin en cas de doute.</string>
+    <string name="attention_votre_imc_est_dans_la_zone">"Attention, votre IMC est dans la zone : "</string>
+    <string name="bravo_votre_imc_est_dans_la_zone">"Bravo ! Votre IMC est dans la zone : "</string>
+</resources>
